@@ -39,5 +39,10 @@
   		<artifactId>javax.servlet-api</artifactId>
   		<version>3.0.1</version>
   	</dependency>
+  	<dependency>
+	    <groupId>com.jcabi</groupId>
+	    <artifactId>jcabi-heroku-maven-plugin</artifactId>
+	    <version>0.9</version>
+	</dependency>
   </dependencies>
 </project>
