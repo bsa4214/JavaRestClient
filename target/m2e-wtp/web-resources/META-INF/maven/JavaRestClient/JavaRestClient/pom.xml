@@ -24,7 +24,11 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>     
-      
+      <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>3.0.2</version>
+      </plugin>
     </plugins>
   </build>
   <dependencies>
@@ -39,10 +43,6 @@
   		<artifactId>javax.servlet-api</artifactId>
   		<version>3.0.1</version>
   	</dependency>
-  	<dependency>
-	    <groupId>com.jcabi</groupId>
-	    <artifactId>jcabi-heroku-maven-plugin</artifactId>
-	    <version>0.9</version>
-	</dependency>
+  	
   </dependencies>
 </project>
